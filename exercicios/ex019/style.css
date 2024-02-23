@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    background-color: #07bfe844;
+    font-family: sans-serif;
+
+}
+
+h1{
+    color: rgb(69, 82, 50);
+}
+
+h1#principal {
+    color: #24257e;
+    text-align: center;
+    background-color: #2588BE;
+}
+
+h2{
+    color: #2B3B3E;
+}
+
+p{
+    text-align: justify;
+    font-weight: normal;
+}
+
+.bas {
+    color: rgb(255, 123, 0);
+    text-align: center;
+}
+
+.ava {
+    color: rgb(180, 54, 54);
+}
+
+.int {
+    color: #DB5604;
+}
+
+.ti{
+    font-style: italic;
+}
