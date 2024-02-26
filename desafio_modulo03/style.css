@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body,html  {
+    background-color: darkgrey;
+    min-height: 100vh;
+}
+
+
+
+/* Cabeçalho */
+
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps ;
+}
+header > p {
+    padding-bottom: 50px;
+    
+}
+a {
+    text-decoration: none;
+    font-size: bolder;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+/*Corpo*/
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 5vh;
+}
+.normal {
+    background-color: white;
+
+}
+.transparente {
+    background-color: rgba(65, 64, 64, 0.555);
+}
+.letrabranca {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.26);
+    width: 400px;
+
+ 
+}
+
+article {
+    color: black;
+    
+}
+
+
+
+/* Rodapé */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
